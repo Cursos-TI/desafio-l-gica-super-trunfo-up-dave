@@ -148,14 +148,17 @@ int main() {
     case 1: //População
         printf("Você escolheu: População\n");
         printf("Comparando População...\n");
+        printf("População de %s: %lu habitantes\n", cidade1, populacao1);
+        printf("População de %s: %lu habitantes\n", cidade2, populacao2);
+
         printf("\n");
         if (populacao1 > populacao2)
         {
-            printf("### Vencedor: Carta 1! ###\n");
+            printf("### Vencedor: Carta 1: %s ###\n", cidade1);
         }
         else if (populacao1 < populacao2)
         {
-            printf("### Vencedor: Carta 2! ###\n");
+            printf("### Vencedor: Carta 2!: %s ###\n", cidade2);
         }
         else
         {
@@ -166,14 +169,17 @@ int main() {
     case 2: //Área
         printf("Você escolheu: Área\n");
         printf("Comparando Área...\n");
+        printf("Área de %s: %.2f km²\n", cidade1, area1);
+        printf("Área de %s: %.2f km²\n", cidade2, area2);
+
         printf("\n");
         if (area1 > area2)
         {
-            printf("### Vencedor: Carta 1! ###\n");
+            printf("### Vencedor: Carta 1!: %s ###\n", cidade1);
         }
         else if (area1 < area2)
         {
-            printf("### Vencedor: Carta 2! ###\n");
+            printf("### Vencedor: Carta 2! %s###\n", cidade2);
         }
         else
         {
@@ -184,14 +190,17 @@ int main() {
     case 3: //PIB
         printf("Você escolheu: PIB\n");
         printf("Comparando PIB...\n");
+        printf("PIB de %s: R$ %.2f bilhões de reais\n", cidade1, pib1);
+        printf("PIB de %s: R$ %.2f bilhões de reais\n", cidade2, pib2);
+
         printf("\n");
         if (pib1 > pib2)
         {
-            printf("### Vencedor: Carta 1! ###\n");
+            printf("### Vencedor: Carta 1!: %s ###\n", cidade1);
         }
         else if (pib1 < pib2)
         {
-            printf("### Vencedor: Carta 2! ###\n");
+            printf("### Vencedor: Carta 2! %s ###\n", cidade2);
         }
         else
         {
@@ -202,14 +211,17 @@ int main() {
     case 4: //Pontos turísticos
         printf("Você escolheu: Pontos turísticos\n");
         printf("Comparando Pontos turísticos...\n");
+        printf("Pontos turísticos de %s: %d\n", cidade1, pontos_turisticos1);
+        printf("Pontos turísticos de %s: %d\n", cidade2, pontos_turisticos2);
+
         printf("\n");
         if (pontos_turisticos1 > pontos_turisticos2)
         {
-            printf("### Vencedor: Carta 1! ###\n");
+            printf("### Vencedor: Carta 1! %s ###\n", cidade1);
         }
         else if (pontos_turisticos1 < pontos_turisticos2)
         {
-            printf("### Vencedor: Carta 2! ###\n");
+            printf("### Vencedor: Carta 2! %s ###\n", cidade2);
         }
         else
         {
@@ -220,14 +232,17 @@ int main() {
     case 5: //Densidade populacional
         printf("Você escolheu: Densidade populacional\n");
         printf("Comparando Densidade populacional...\n");
+        printf("Densidade populacional de %s: %.1f hab/km²\n", cidade1, densidade_populacional1);
+        printf("Densidade populacional de %s: %.1f hab/km²\n", cidade2, densidade_populacional2);
+
         printf("\n");
         if (densidade_populacional1 < densidade_populacional2)
         {
-            printf("### Vencedor: Carta 1! ###\n");
+            printf("### Vencedor: Carta 1! %s ###\n", cidade1);
         }
         else if (densidade_populacional1 > densidade_populacional2)
         {
-            printf("### Vencedor: Carta 2! ###\n");
+            printf("### Vencedor: Carta 2! %s ###\n", cidade2);
         }
         else
         {
@@ -238,14 +253,17 @@ int main() {
     case 6: //PIB per capita
         printf("Você escolheu: PIB per capita\n");
         printf("Comparando PIB per capita...\n");
+        printf("PIB per capita de %s: R$ %.2f\n", cidade1, pib_per_capta1);
+        printf("PIB per capita de %s: R$ %.2f\n", cidade2, pib_per_capta2); 
+
         printf("\n");
         if (pib_per_capta1 > pib_per_capta2)
         {
-            printf("### Vencedor: Carta 1! ###\n");
+            printf("### Vencedor: Carta 1! %s ###\n", cidade1);
         }
         else if (pib_per_capta1 < pib_per_capta2)
         {
-            printf("### Vencedor: Carta 2! ###\n");
+            printf("### Vencedor: Carta 2! %s ###\n", cidade2);
         }
         else
         {
@@ -256,14 +274,17 @@ int main() {
     case 7: //Superpoder
         printf("Você escolheu: Superpoder\n");
         printf("Comparando Superpoder...\n");
+        printf("Superpoder de %s: %.f\n", cidade1, superpoder1);
+        printf("Superpoder de %s: %.f\n", cidade2, superpoder2);
+
         printf("\n");
         if (superpoder1 > superpoder2)
         {
-            printf("### Vencedor: Carta 1! ###\n");
+            printf("### Vencedor: Carta 1! %s ###\n", cidade1);
         }
         else if (superpoder1 < superpoder2)
         {
-            printf("### Vencedor: Carta 2! ###\n");
+            printf("### Vencedor: Carta 2! %s ###\n", cidade2);
         }
         else
         {
