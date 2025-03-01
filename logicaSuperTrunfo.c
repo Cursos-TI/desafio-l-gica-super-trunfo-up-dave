@@ -20,17 +20,19 @@ int main() {
 
     float final1a, final1b, final2a, final2b, soma_atributos1, soma_atributos2;  //Escolha do atributo a ser comparado
 
-    
+    /*
     // Exemplo de cartas para teste:
+    // Para agilizar e não ter que inserir os dados toda vez que rodar o programa
+    // Carta 1
     strcpy(estado1, "BR");
-    strcpy(codigo1, "001");
+    strcpy(codigo1, "01");
     strcpy(cidade1, "São Paulo");
-    populacao1 = 12325232;
+    populacao1 = 25325412;
     area1 = 1521.11;
     pib1 = 1.6;
     pontos_turisticos1 = 10;
-    pontos_turisticos1 = 10;
-
+    
+    // Carta 2
     strcpy(estado2, "BR");
     strcpy(codigo2, "02");
     strcpy(cidade2, "Rio de Janeiro");
@@ -38,8 +40,7 @@ int main() {
     area2 = 1200.11;
     pib2 = 1.2;
     pontos_turisticos2 = 8;
-    pontos_turisticos2 = 8;
-        
+         */  
     
 
     // Mensagem de boas-vindas:
@@ -48,7 +49,7 @@ int main() {
     
     // Inserção de dados das cartas:
     //Carta 1
-    /*
+    
     printf(" *** Carta 1 ***\n");
     printf("Digite estado ou país da primeira carta:\n ");
     scanf("%1s", estado1);
@@ -102,7 +103,7 @@ int main() {
     printf("Digite número de pontos turísticos da cidade:\n "); 
     scanf("%d", &pontos_turisticos2); 
     while (getchar() != '\n');  
-   */
+   
    //Cálculo da densidade populacional
     densidade_populacional1 = populacao1/area1;
     densidade_populacional2 = populacao2/area2;
