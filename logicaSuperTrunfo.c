@@ -20,7 +20,7 @@ int main() {
 
     float final1a, final1b, final2a, final2b, soma_atributos1, soma_atributos2;  //Escolha do atributo a ser comparado
 
-    /*
+    
     // Exemplo de cartas para teste:
     // Para agilizar e não ter que inserir os dados toda vez que rodar o programa
     // Carta 1
@@ -40,7 +40,7 @@ int main() {
     area2 = 1200.11;
     pib2 = 1.2;
     pontos_turisticos2 = 21;
-      */        
+       
 
     // Mensagem de boas-vindas:
     printf("Bem-vindo ao Super Trunfo de Cidades!\n");
@@ -48,7 +48,7 @@ int main() {
     
     // Inserção de dados das cartas:
     //Carta 1
-    
+    /*
     printf(" *** Carta 1 ***\n");
     printf("Digite estado ou país da primeira carta:\n ");
     scanf("%1s", estado1);
@@ -102,7 +102,7 @@ int main() {
     printf("Digite número de pontos turísticos da cidade:\n "); 
     scanf("%d", &pontos_turisticos2); 
     while (getchar() != '\n');  
-   
+   */
 
    //Cálculo da densidade populacional
     densidade_populacional1 = populacao1/area1;
